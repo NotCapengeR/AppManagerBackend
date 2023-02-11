@@ -3,6 +3,7 @@
 from typing import NoReturn
 
 from src import app, api, config, db
+from src.core.database.models import User, Backup
 from src.api.routes import Login, Register, BackupManager, BackupProvider, DownloadBackup
 
 
